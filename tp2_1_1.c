@@ -4,7 +4,6 @@
 
 #define N 20
 
-
 int main(){
 
     int i;
