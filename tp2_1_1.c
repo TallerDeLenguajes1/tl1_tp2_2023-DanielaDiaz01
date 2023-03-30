@@ -9,14 +9,12 @@ int main(){
 
     int i;
     double vt[N];
-    double *p;
-
     srand(time(NULL));
     
-    for(p=vt; p<vt+N; p++){
+    for(i=0; i<N; i++){
         
-        *p = 1 + rand() % 100;
-        printf( "\n%f",  *p );
+        vt[i] = 1 + rand() % 100;
+        printf( "\n%f",  vt[i] );
     }
     return 0;
 }
